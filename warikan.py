@@ -1,13 +1,7 @@
-def calculation(amount, number_of_people):
-    price = amount // number_of_people
-    rest = amount % number_of_people
-    return price, rest
+def warikan(amount, number_of_people):
+    return f"1人あたり: {amount // number_of_people}円, 端数: {amount % number_of_people}円"
 
 
-amount = int(input("合計金額は："))
-number_of_people = int(input('人数は'))
-
-result = calculation(amount, number_of_people)
-print(result)
-print(result[0])
-print(result[1])
+print(warikan(amount=1500, number_of_people=3))
+print(warikan(amount=2000, number_of_people=3))
+print(warikan(amount=3000, number_of_people=4))
