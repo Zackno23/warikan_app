@@ -1,0 +1,27 @@
+def hello():
+    print('hello world')
+
+
+hello()
+
+
+def sayhello(name):
+    print(f"hi {name}")
+
+
+sayhello('bob')
+
+
+def double(number):
+    print(2 * number)
+
+
+result1 = double(3)
+
+
+def str_combine(a, b):
+    return a + b
+
+
+result = str_combine('kazuma', 'Takahashi')
+print(result)
